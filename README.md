@@ -7,10 +7,10 @@ This program utilizes
 contents: banker.cpp, input.txt
 
 # How it Works
-
+The program checks the safe state of the system and if its in a safe state then it continues on to find the safe sequence. 
 
 Banker.cpp
-- 
+- contains the banker algorithm
 
 
 Input.txt
