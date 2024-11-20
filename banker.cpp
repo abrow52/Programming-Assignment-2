@@ -59,7 +59,7 @@ bool isSafe(int processes[], int avail[], int max[][R], int allot[][R]) {
 }
 
 int main() {
-    ifstream inputFile("/Users/aliciabrown/Desktop/CompSci/PA2/PA2/input.txt");
+    ifstream inputFile("input.txt");
     if (!inputFile) {
         cout << "Error opening file." << endl;
         return 1;
