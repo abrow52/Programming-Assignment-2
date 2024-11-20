@@ -1,17 +1,15 @@
 # Programming-Assignment-2: Banker Algorithm
 
 # Overview
-My name is Alicia Brown. For assignment 2 for Operating Systems, we had to add the values from a table into an input file and use the banker algorithm to avoid deadlock and find the safe sequence.
-This program utilizes 
+My name is Alicia Brown. For assignment 2 for Operating Systems, we had to add the values from a table into an input file and use the banker algorithm to avoid deadlock and find the safe sequence. 
 
 contents: banker.cpp, input.txt
 
 # How it Works
-The program checks the safe state of the system and if its in a safe state then it continues on to find the safe sequence. 
+The program checks the safe state of the system and if its in a safe state then it continues on to find the safe sequence.
 
 Banker.cpp
 - contains the banker algorithm
-
 
 Input.txt
 - contains the number of processes, the values of the maximums, the values of the allocations, and the available values.
